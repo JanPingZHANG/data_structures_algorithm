@@ -60,7 +60,7 @@ def quicksort(ls,left,right):
                 i = i+1
             while ls[j]>pivot:
                 j = j-1
-            if i>j:
+            if i>=j:
                 break
             swap(ls,i,j)
         swap(ls,i,right-1)
